@@ -46,7 +46,7 @@ export async function POST(request: Request) {
     });
 
     const info = await transporter.sendMail({
-      from: '"Haziq Saleem" <khaziq109@gmail.com>',
+      from: '"your name" <yourmail.gmail.com>',
       to: emailList.join(','),
       subject: "its pubg time",
       text: "get your phone charged, your headset ready and lets play.",
